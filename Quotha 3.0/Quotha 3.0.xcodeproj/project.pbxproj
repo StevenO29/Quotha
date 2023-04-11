@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5F47882692C2EA00079C78 /* logo quotha.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A5F47872692C2E900079C78 /* logo quotha.png */; };
+		3A6C745826955F9A00C79203 /* ExpertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C745726955F9A00C79203 /* ExpertViewController.swift */; };
+		3A6C745C269561FB00C79203 /* Duplicate Quotha.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C745A269561FB00C79203 /* Duplicate Quotha.storyboard */; };
+		3A6C745F2695675200C79203 /* Locked Exercise.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6C745E2695675100C79203 /* Locked Exercise.png */; };
+		3A7CAEEC2694A37E002D78EF /* quotha ok.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7CAEEB2694A37E002D78EF /* quotha ok.storyboard */; };
+		3AB946892693EB1F0076EC22 /* Progress 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB946882693EB1F0076EC22 /* Progress 2.png */; };
+		3AB9468C2693EBBF0076EC22 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB9468B2693EBBF0076EC22 /* profile.png */; };
+		3AB9468F2693EC2C0076EC22 /* story.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB9468E2693EC2B0076EC22 /* story.png */; };
+		3AB946922693EC800076EC22 /* exercise.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB946912693EC800076EC22 /* exercise.png */; };
+		3AB9469A2693F9E90076EC22 /* Locked Level 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB946992693F9E80076EC22 /* Locked Level 2.png */; };
+		B02A5FC0268D7B1F00B2DF72 /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = B02A5FBF268D7B1E00B2DF72 /* Line.png */; };
+		B02A5FC3268D7C0400B2DF72 /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = B02A5FC2268D7C0400B2DF72 /* Rectangle.png */; };
+		B02A5FC6268D7D1C00B2DF72 /* Edit PRofile.png in Resources */ = {isa = PBXBuildFile; fileRef = B02A5FC5268D7D1C00B2DF72 /* Edit PRofile.png */; };
+		B02A5FC9268D7DDF00B2DF72 /* Rectangle 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B02A5FC8268D7DDF00B2DF72 /* Rectangle 2.png */; };
+		B02A5FCC268D7EF900B2DF72 /* Rectangle gray.png in Resources */ = {isa = PBXBuildFile; fileRef = B02A5FCB268D7EF900B2DF72 /* Rectangle gray.png */; };
+		B02A5FCF268D7EFE00B2DF72 /* Rectangle yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = B02A5FCE268D7EFE00B2DF72 /* Rectangle yellow.png */; };
+		B02A5FD2268D7F7200B2DF72 /* Rectangle white.png in Resources */ = {isa = PBXBuildFile; fileRef = B02A5FD1268D7F7200B2DF72 /* Rectangle white.png */; };
+		B09079FB268CBE9C005FF348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09079FA268CBE9C005FF348 /* AppDelegate.swift */; };
+		B09079FD268CBE9C005FF348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09079FC268CBE9C005FF348 /* SceneDelegate.swift */; };
+		B09079FF268CBE9C005FF348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09079FE268CBE9C005FF348 /* ViewController.swift */; };
+		B0907A02268CBE9C005FF348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0907A00268CBE9C005FF348 /* Main.storyboard */; };
+		B0907A04268CBEA4005FF348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0907A03268CBEA4005FF348 /* Assets.xcassets */; };
+		B0907A07268CBEA4005FF348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0907A05268CBEA4005FF348 /* LaunchScreen.storyboard */; };
+		B0907A10268CBFEC005FF348 /* magic egg button.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A0F268CBFEC005FF348 /* magic egg button.png */; };
+		B0907A17268CC03E005FF348 /* semuuut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0907A16268CC03E005FF348 /* semuuut.jpg */; };
+		B0907A1A268CC07A005FF348 /* Easy button.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A19268CC07A005FF348 /* Easy button.png */; };
+		B0907A1D268CC07F005FF348 /* Intermediate button.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A1C268CC07F005FF348 /* Intermediate button.png */; };
+		B0907A20268CC086005FF348 /* Advanced button.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A1F268CC085005FF348 /* Advanced button.png */; };
+		B0907A23268CC0FD005FF348 /* chapter 1 button.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A22268CC0FD005FF348 /* chapter 1 button.png */; };
+		B0907A26268CC103005FF348 /* Chapter 2 button.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A25268CC103005FF348 /* Chapter 2 button.png */; };
+		B0907A29268CC10A005FF348 /* chapter 3 button.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A28268CC10A005FF348 /* chapter 3 button.png */; };
+		B0907A2C268CC153005FF348 /* Line 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A2B268CC153005FF348 /* Line 4.png */; };
+		B0907A2F268CC1BD005FF348 /* Line 5.png in Resources */ = {isa = PBXBuildFile; fileRef = B0907A2E268CC1BD005FF348 /* Line 5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5F47872692C2E900079C78 /* logo quotha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo quotha.png"; path = "../../logo quotha.png"; sourceTree = "<group>"; };
+		3A6C745726955F9A00C79203 /* ExpertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertViewController.swift; sourceTree = "<group>"; };
+		3A6C745B269561FB00C79203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Quotha 3.0/Base.lproj/Duplicate Quotha.storyboard"; sourceTree = "<group>"; };
+		3A6C745E2695675100C79203 /* Locked Exercise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Locked Exercise.png"; path = "../../Locked Exercise.png"; sourceTree = "<group>"; };
+		3A7CAEEB2694A37E002D78EF /* quotha ok.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "quotha ok.storyboard"; sourceTree = "<group>"; };
+		3AB946882693EB1F0076EC22 /* Progress 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Progress 2.png"; path = "../../Progress 2.png"; sourceTree = "<group>"; };
+		3AB9468B2693EBBF0076EC22 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../profile.png; sourceTree = "<group>"; };
+		3AB9468E2693EC2B0076EC22 /* story.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = story.png; path = ../../story.png; sourceTree = "<group>"; };
+		3AB946912693EC800076EC22 /* exercise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exercise.png; path = ../../exercise.png; sourceTree = "<group>"; };
+		3AB946992693F9E80076EC22 /* Locked Level 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Locked Level 2.png"; path = "../../Locked Level 2.png"; sourceTree = "<group>"; };
+		B02A5FBF268D7B1E00B2DF72 /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		B02A5FC2268D7C0400B2DF72 /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
+		B02A5FC5268D7D1C00B2DF72 /* Edit PRofile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edit PRofile.png"; sourceTree = "<group>"; };
+		B02A5FC8268D7DDF00B2DF72 /* Rectangle 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 2.png"; sourceTree = "<group>"; };
+		B02A5FCB268D7EF900B2DF72 /* Rectangle gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle gray.png"; sourceTree = "<group>"; };
+		B02A5FCE268D7EFE00B2DF72 /* Rectangle yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle yellow.png"; sourceTree = "<group>"; };
+		B02A5FD1268D7F7200B2DF72 /* Rectangle white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle white.png"; sourceTree = "<group>"; };
+		B09079F7268CBE9C005FF348 /* Quotha 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quotha 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09079FA268CBE9C005FF348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B09079FC268CBE9C005FF348 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B09079FE268CBE9C005FF348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0907A01268CBE9C005FF348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0907A03268CBEA4005FF348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0907A06268CBEA4005FF348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0907A08268CBEA4005FF348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0907A0F268CBFEC005FF348 /* magic egg button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic egg button.png"; sourceTree = "<group>"; };
+		B0907A16268CC03E005FF348 /* semuuut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = semuuut.jpg; sourceTree = "<group>"; };
+		B0907A19268CC07A005FF348 /* Easy button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy button.png"; sourceTree = "<group>"; };
+		B0907A1C268CC07F005FF348 /* Intermediate button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Intermediate button.png"; sourceTree = "<group>"; };
+		B0907A1F268CC085005FF348 /* Advanced button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Advanced button.png"; sourceTree = "<group>"; };
+		B0907A22268CC0FD005FF348 /* chapter 1 button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chapter 1 button.png"; sourceTree = "<group>"; };
+		B0907A25268CC103005FF348 /* Chapter 2 button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chapter 2 button.png"; sourceTree = "<group>"; };
+		B0907A28268CC10A005FF348 /* chapter 3 button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chapter 3 button.png"; sourceTree = "<group>"; };
+		B0907A2B268CC153005FF348 /* Line 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line 4.png"; sourceTree = "<group>"; };
+		B0907A2E268CC1BD005FF348 /* Line 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line 5.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B09079F4268CBE9C005FF348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B09079EE268CBE9C005FF348 = {
+			isa = PBXGroup;
+			children = (
+				3A6C745A269561FB00C79203 /* Duplicate Quotha.storyboard */,
+				3A7CAEEB2694A37E002D78EF /* quotha ok.storyboard */,
+				B09079F9268CBE9C005FF348 /* Quotha 3.0 */,
+				B09079F8268CBE9C005FF348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B09079F8268CBE9C005FF348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B09079F7268CBE9C005FF348 /* Quotha 3.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B09079F9268CBE9C005FF348 /* Quotha 3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B09079FA268CBE9C005FF348 /* AppDelegate.swift */,
+				B09079FC268CBE9C005FF348 /* SceneDelegate.swift */,
+				B09079FE268CBE9C005FF348 /* ViewController.swift */,
+				B0907A00268CBE9C005FF348 /* Main.storyboard */,
+				B0907A0F268CBFEC005FF348 /* magic egg button.png */,
+				B0907A16268CC03E005FF348 /* semuuut.jpg */,
+				B0907A19268CC07A005FF348 /* Easy button.png */,
+				B0907A1C268CC07F005FF348 /* Intermediate button.png */,
+				B0907A1F268CC085005FF348 /* Advanced button.png */,
+				B0907A22268CC0FD005FF348 /* chapter 1 button.png */,
+				B0907A25268CC103005FF348 /* Chapter 2 button.png */,
+				B0907A28268CC10A005FF348 /* chapter 3 button.png */,
+				B0907A2B268CC153005FF348 /* Line 4.png */,
+				B0907A2E268CC1BD005FF348 /* Line 5.png */,
+				B02A5FBF268D7B1E00B2DF72 /* Line.png */,
+				B02A5FC2268D7C0400B2DF72 /* Rectangle.png */,
+				B02A5FC5268D7D1C00B2DF72 /* Edit PRofile.png */,
+				B02A5FC8268D7DDF00B2DF72 /* Rectangle 2.png */,
+				3AB946882693EB1F0076EC22 /* Progress 2.png */,
+				B02A5FCB268D7EF900B2DF72 /* Rectangle gray.png */,
+				B02A5FCE268D7EFE00B2DF72 /* Rectangle yellow.png */,
+				B02A5FD1268D7F7200B2DF72 /* Rectangle white.png */,
+				B0907A03268CBEA4005FF348 /* Assets.xcassets */,
+				B0907A05268CBEA4005FF348 /* LaunchScreen.storyboard */,
+				3AB946992693F9E80076EC22 /* Locked Level 2.png */,
+				3AB9468E2693EC2B0076EC22 /* story.png */,
+				3A6C745E2695675100C79203 /* Locked Exercise.png */,
+				3AB946912693EC800076EC22 /* exercise.png */,
+				3AB9468B2693EBBF0076EC22 /* profile.png */,
+				B0907A08268CBEA4005FF348 /* Info.plist */,
+				3A5F47872692C2E900079C78 /* logo quotha.png */,
+				3A6C745726955F9A00C79203 /* ExpertViewController.swift */,
+			);
+			path = "Quotha 3.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B09079F6268CBE9C005FF348 /* Quotha 3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0907A0B268CBEA4005FF348 /* Build configuration list for PBXNativeTarget "Quotha 3.0" */;
+			buildPhases = (
+				B09079F3268CBE9C005FF348 /* Sources */,
+				B09079F4268CBE9C005FF348 /* Frameworks */,
+				B09079F5268CBE9C005FF348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quotha 3.0";
+			productName = "Quotha 3.0";
+			productReference = B09079F7268CBE9C005FF348 /* Quotha 3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B09079EF268CBE9C005FF348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B09079F6268CBE9C005FF348 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B09079F2268CBE9C005FF348 /* Build configuration list for PBXProject "Quotha 3.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B09079EE268CBE9C005FF348;
+			productRefGroup = B09079F8268CBE9C005FF348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B09079F6268CBE9C005FF348 /* Quotha 3.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B09079F5268CBE9C005FF348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7CAEEC2694A37E002D78EF /* quotha ok.storyboard in Resources */,
+				B02A5FC9268D7DDF00B2DF72 /* Rectangle 2.png in Resources */,
+				B0907A29268CC10A005FF348 /* chapter 3 button.png in Resources */,
+				B0907A20268CC086005FF348 /* Advanced button.png in Resources */,
+				B0907A23268CC0FD005FF348 /* chapter 1 button.png in Resources */,
+				B0907A07268CBEA4005FF348 /* LaunchScreen.storyboard in Resources */,
+				B0907A1D268CC07F005FF348 /* Intermediate button.png in Resources */,
+				B02A5FC3268D7C0400B2DF72 /* Rectangle.png in Resources */,
+				B02A5FC0268D7B1F00B2DF72 /* Line.png in Resources */,
+				B0907A2C268CC153005FF348 /* Line 4.png in Resources */,
+				B0907A17268CC03E005FF348 /* semuuut.jpg in Resources */,
+				3A5F47882692C2EA00079C78 /* logo quotha.png in Resources */,
+				3AB946922693EC800076EC22 /* exercise.png in Resources */,
+				B0907A2F268CC1BD005FF348 /* Line 5.png in Resources */,
+				B02A5FC6268D7D1C00B2DF72 /* Edit PRofile.png in Resources */,
+				3A6C745C269561FB00C79203 /* Duplicate Quotha.storyboard in Resources */,
+				3AB9468F2693EC2C0076EC22 /* story.png in Resources */,
+				B0907A1A268CC07A005FF348 /* Easy button.png in Resources */,
+				B0907A26268CC103005FF348 /* Chapter 2 button.png in Resources */,
+				3AB9469A2693F9E90076EC22 /* Locked Level 2.png in Resources */,
+				B02A5FCF268D7EFE00B2DF72 /* Rectangle yellow.png in Resources */,
+				B0907A04268CBEA4005FF348 /* Assets.xcassets in Resources */,
+				B02A5FD2268D7F7200B2DF72 /* Rectangle white.png in Resources */,
+				3AB946892693EB1F0076EC22 /* Progress 2.png in Resources */,
+				3AB9468C2693EBBF0076EC22 /* profile.png in Resources */,
+				B0907A02268CBE9C005FF348 /* Main.storyboard in Resources */,
+				B0907A10268CBFEC005FF348 /* magic egg button.png in Resources */,
+				B02A5FCC268D7EF900B2DF72 /* Rectangle gray.png in Resources */,
+				3A6C745F2695675200C79203 /* Locked Exercise.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B09079F3268CBE9C005FF348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6C745826955F9A00C79203 /* ExpertViewController.swift in Sources */,
+				B09079FF268CBE9C005FF348 /* ViewController.swift in Sources */,
+				B09079FB268CBE9C005FF348 /* AppDelegate.swift in Sources */,
+				B09079FD268CBE9C005FF348 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A6C745A269561FB00C79203 /* Duplicate Quotha.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A6C745B269561FB00C79203 /* Base */,
+			);
+			name = "Duplicate Quotha.storyboard";
+			sourceTree = "<group>";
+		};
+		B0907A00268CBE9C005FF348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0907A01268CBE9C005FF348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0907A05268CBEA4005FF348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0907A06268CBEA4005FF348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0907A09268CBEA4005FF348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0907A0A268CBEA4005FF348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0907A0C268CBEA4005FF348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WSCC5Q69A;
+				INFOPLIST_FILE = "Quotha 3.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LearnWithJoey.Quotha-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0907A0D268CBEA4005FF348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WSCC5Q69A;
+				INFOPLIST_FILE = "Quotha 3.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LearnWithJoey.Quotha-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B09079F2268CBE9C005FF348 /* Build configuration list for PBXProject "Quotha 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0907A09268CBEA4005FF348 /* Debug */,
+				B0907A0A268CBEA4005FF348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0907A0B268CBEA4005FF348 /* Build configuration list for PBXNativeTarget "Quotha 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0907A0C268CBEA4005FF348 /* Debug */,
+				B0907A0D268CBEA4005FF348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B09079EF268CBE9C005FF348 /* Project object */;
+}
